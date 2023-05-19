@@ -1,0 +1,54 @@
+.SectionInfoContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-left: 40px;
+}
+.SectionInfoContent h1{
+    margin-top: 20px;
+    font-size: 44px;
+}
+.SectionInfoContent h3{
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: extra-expanded;
+    color: orange;
+}
+
+.SectionInfoContent p{
+    margin-top: 30px;
+    color: gray;
+}
+
+.SectionInfoPrice{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.SectionInfoPrice h3{
+    color: black;
+    font-weight: bold;
+    font-size: 32px;
+
+}
+
+.SectionInfoPrice span{
+    margin-left: 20px;
+    background-color: hsl(25, 100%, 94%);
+    padding: 5px 12px;
+    color: hsl(26, 100%, 55%);
+    border-radius: 10px;
+}
+
+.SectionInfoOldPrice{
+    color: rgb(174, 174, 174);
+    text-decoration: line-through;
+}
+
+.SectionInfBtn{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}

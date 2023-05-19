@@ -1,0 +1,32 @@
+.BotaoContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: rgb(227, 227, 227);
+    width:120px;
+    height: 44px;
+    padding: 5px 10px;
+
+    border: none;
+    border-radius: 5px;
+
+    margin-right: 12px;
+}
+
+.BotaoContent div{
+    cursor: pointer;
+    font-size: 20px;
+    color: orangered;
+    
+}
+
+.BotaoContent button{
+    text-align: center;
+    font-weight: 900;
+    color: orangered;
+    margin: 5px;
+    border: none;
+    background-color: rgb(227, 227, 227);
+    cursor: pointer;
+}
